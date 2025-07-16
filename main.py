@@ -55,8 +55,8 @@ while opcao != "sair":
     elif opcao == '2':
         print("Digite a opcao desejada")
         print("1 - agendar, 2 - cancelar, 3 - remarcar")
-        marcacao = input()
-        marcacao.lowercase()
+        marcacao = int(input())
+        
 
         if marcacao == 1:
             dia = input("Digite o dia da consulta")
@@ -127,4 +127,7 @@ while opcao != "sair":
         print("em andamento...")
     elif opcao == "10":
         print("Em andamento...")
+
+    opcao = input("Digite qual funcao voce quer executar ( para sair digite sair)")
+    opcao.lower
         
